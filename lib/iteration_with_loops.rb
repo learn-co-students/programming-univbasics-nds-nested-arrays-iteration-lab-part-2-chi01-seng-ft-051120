@@ -1,6 +1,5 @@
 def find_min_in_nested_arrays(src)
-  # src will be an array of arrays of integers
-  # Produce a new Array that contains the smallest number of each of the nested arrays
+
   src = [
   [19, 21, 24, 26, 30, 34, 37, 39, 40, 45, 48, 50, 55, 60, 63, 59, 49, 45, 40, 39, 34, 32, 25, 18],
   [17, 18, 22, 26, 31, 35, 38, 40, 43, 45, 49, 52, 55, 61, 60, 59, 55, 49, 45, 38, 32, 30, 24, 19],
@@ -11,5 +10,26 @@ def find_min_in_nested_arrays(src)
   [30, 36, 38, 39, 40, 45, 47, 49, 50, 59, 60, 60, 65, 63, 61, 56, 49, 43, 40, 39, 35, 32, 23, 22],
 ]
     
+    
+#     def find_min_in_nested_arrays(src)
+#  outer_results = []
+#   row_index = 0
+#   while row_index < src.count do
+#     element_index = 0
+
+#     while element_index < src[row_index].count do
+#       if src[row_index][element_index].even?
+#         p src[row_index][element_index]
+#       end
+#       element_index += 1
+#     end
+#     row_index += 1
+#   end
+# end
+
+#######################
+
+  # src will be an array of arrays of integers
+  # Produce a new Array that contains the smallest number of each of the nested arrays
 
 end
